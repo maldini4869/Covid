@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:paddingTop="140dp"
+               android:paddingLeft="10dp"
+               android:text="Penambahan"
+               android:textSize="20dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_1"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/positif"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_1"
+                    android:text="Positif"
+                    android:gravity="center_vertical"
+                    android:textSize="30dp"
+                    tools:ignore="MissingConstraints" />
+
+            </RelativeLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="left"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="380dp"
+               android:text="Gender"
+               android:textSize="20dp"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="420dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_1"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/perempuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="Perempuan"
+                    android:gravity="center_vertical"
+                    android:textSize="30dp"
+                    tools:ignore="MissingConstraints" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="690dp"
+                android:text="Rentang Usia"
+                android:textSize="20dp"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:layout_marginTop="730dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/button_1"
+                android:elevation="5dp">
+
+                <TextView
+                    android:id="@+id/_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="_05"
+                    android:gravity="center_vertical"
+                    android:textSize="30dp"
+                    tools:ignore="MissingConstraints" />
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:background="@drawable/mainmenu">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:gravity="center|left"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kasus"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirawat"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meninggal"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sembuh"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="100dp"
+            android:gravity="center|left"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/kasus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="kasus"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/dirawat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="dirawat"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/meninggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="meninggal"
+                android:textSize="14dp"/>
+            <TextView
+                android:id="@+id/sembuh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="sembuh"
+                android:textSize="14dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/provinsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provinsi"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
